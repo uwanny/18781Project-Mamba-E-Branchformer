@@ -26,7 +26,7 @@ This file contains bidirectional outer mamba. should be placed in /mamba_ssm/mod
 should be placed in espnet/espnet2/asr/encoder
 
 ### asr.py
-This is asr.py file, which is in espnet/espnet2/tasks
+This is asr.py file, which should be in espnet/espnet2/tasks
 
 ### e_branchformer_encoder_mamba.yaml
 This file is the training config file, showing the required parameters.
