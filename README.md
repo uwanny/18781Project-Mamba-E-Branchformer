@@ -25,10 +25,16 @@ This file contains bidirectional outer mamba. should be placed in /mamba_ssm/mod
 ### e_branchformer_encoder_mamba.py (this is the file for E-branchformer encoder with self-attention replaced by mamba layer, in this version we only used outer_bimamba)
 should be placed in espnet/espnet2/asr/encoder
 
+### e_branchformer_encoder_mamba_parallel.py (this is the file for E-branchformer encoder adding another bimamba branch, in this version we only used outer_bimamba)
+should be placed in espnet/espnet2/asr/encoder
+
 ### asr.py
 This is asr.py file, which should be in espnet/espnet2/tasks
 
-### e_branchformer_encoder_mamba.yaml
-This file is the training config file, showing the required parameters.
+### train_asr_e_branchformermamba.yaml
+This file is the example training config file, showing the required parameters for training Mamba based E-Branchformer Arch.
+
+### train_asr_e_branchformermambaparallel.yaml
+This file is the example training config file, showing the required parameters for training E-Branchformer Mamba parellel Arch.
 
 
