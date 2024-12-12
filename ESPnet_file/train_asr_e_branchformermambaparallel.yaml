@@ -10,7 +10,7 @@ encoder_conf:
     cgmlp_conv_kernel: 31
     use_linear_after_conv: False
     gate_activation: identity
-    num_blocks: 8
+    num_blocks: 12
     dropout_rate: 0.1
     positional_dropout_rate: 0.1
     attention_dropout_rate: 0.1
