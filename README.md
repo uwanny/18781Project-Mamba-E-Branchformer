@@ -37,4 +37,20 @@ This file is the example training config file, showing the required parameters f
 ### train_asr_e_branchformermambaparallel.yaml
 This file is the example training config file, showing the required parameters for training E-Branchformer Mamba parellel Arch.
 
+## Model Architecture
 
+<figure>
+    <img src="images/extbimamba.png" alt="External Bidirectional Mamba layer" style="max-width: 100%; height: auto;">
+    <figcaption>
+        <strong>Figure 1:</strong> External Bidirectional Mamba layer: Two common Mamba
+        layers are applied to process the forward and backward input, ”Act“
+    means SiLU activation.
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="images/image.png" alt="External Bidirectional Mamba layer" style="max-width: 100%; height: auto;">
+    <figcaption>
+        <strong>Figure 2:</strong> E-Branchformer Mamba Parallel Structure.
+    </figcaption>
+</figure>
