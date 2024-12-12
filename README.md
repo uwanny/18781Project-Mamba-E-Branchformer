@@ -54,3 +54,6 @@ This file is the example training config file, showing the required parameters f
         <strong>Figure 2:</strong> E-Branchformer Mamba Parallel Structure.
     </figcaption>
 </figure>
+
+## Project Report
+For detailed analysis and results, please check our [final project report](https://drive.google.com/file/d/1CkGe8dIdvFGuoh6ofdI5hbaz4QGMK-en/view?usp=drive_link).
