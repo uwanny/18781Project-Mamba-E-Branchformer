@@ -35,6 +35,9 @@ from espnet2.asr.encoder.contextual_block_transformer_encoder import (
 )
 from espnet2.asr.encoder.e_branchformer_encoder import EBranchformerEncoder
 from espnet2.asr.encoder.e_branchformer_encoder_mamba import EBranchformerEncoderMamba
+from espnet2.asr.encoder.e_branchformer_encoder_mamba_parallel import (
+    EBranchformerEncoderMambaParallel,
+)
 from espnet2.asr.encoder.hubert_encoder import (
     FairseqHubertEncoder,
     FairseqHubertPretrainEncoder,
@@ -159,6 +162,7 @@ encoder_choices = ClassChoices(
         whisper=OpenAIWhisperEncoder,
         e_branchformer=EBranchformerEncoder,
         e_branchformer_mamba=EBranchformerEncoderMamba,
+        e_branchformer_mamba_parallel=EBranchformerEncoderMambaParallel,
         avhubert=FairseqAVHubertEncoder,
         multiconv_conformer=MultiConvConformerEncoder,
     ),
